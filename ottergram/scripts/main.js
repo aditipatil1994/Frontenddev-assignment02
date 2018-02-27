@@ -102,5 +102,6 @@ function mySlide(param) {
   setDetails(thumbnailArray[currentIndex].href, thumbnailArray[currentIndex].getAttribute("data-image-title"));
 }
 
+mySlide();
 
 initializeEvents();
